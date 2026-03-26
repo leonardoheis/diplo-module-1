@@ -1,5 +1,5 @@
 [project]
-name = "(diplo-modulo-1)"
+name = "diplo-modulo-1"
 version = "0.1.0"
 description = "Housing Market Simulation"
 readme = "README.md"

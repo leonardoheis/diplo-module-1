@@ -1,6 +1,6 @@
-title: "(diplo-modulo-1 Book Title)"
-copyright: '(diplo-modulo-1 2026), (diplo-modulo-1 Leonardo Heis)'
-author: '(diplo-modulo-1 Leonardo Heis)'
+title: "diplo-modulo-1 Book Title"
+copyright: 'diplo-modulo-1 2026, diplo-modulo-1 Leonardo Heis'
+author: 'diplo-modulo-1 Leonardo Heis'
 
 execute:
   execute_notebooks: "force"
@@ -8,10 +8,10 @@ execute:
 html:
   use_edit_page_button : true
   use_repository_button: true
-  baseurl              : (https://diplo-modulo-1.github.io/diplo-modulo-1/)
+  baseurl              : https://leonardoheis.github.io/diplo-module-1/
 
 repository:
-  url: (https://github.com/leonardoheis/diplo-module-1)
+  url: https://github.com/leonardoheis/diplo-module-1
   branch: master
 
 launch_buttons:
