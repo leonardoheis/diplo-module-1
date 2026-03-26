@@ -1,6 +1,4 @@
 name: Build PDF of the Book
-# This Workflow was adapted from the official docs:
-# https://github.com/executablebooks/jupyter-book
 
 on:
   push:
@@ -22,18 +20,8 @@ jobs:
       with:
         python-version: 3.12
 
-
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install wheel
-        pushd .
-        cd ..
-        git clone https://github.com/executablebooks/jupyter-book.git
-        cd jupyter-book
-        pip install -e .[sphinx,pdflatex]
-        popd
-
+    - name: Install dependencies
+      run: uv sync --all-groups
 
     - name: Install latex dependencies
       run: |
@@ -47,12 +35,10 @@ jobs:
           latexmk                   \
           xindy
 
-
     - name: Build PDF from LaTeX
-      run: jb build . --builder pdflatex
+      run: uv run jb build book --builder pdflatex --path-output .
 
-
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08  # v4.6.0
       with:
         name: Book PDF
         path: _build/latex/book.pdf
