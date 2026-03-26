@@ -961,7 +961,7 @@ wheels = [
 ]
 
 [[package]]
-name = "(REPLACE WITH PACKAGE NAME)"
+name = "diplo-modulo-1"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
