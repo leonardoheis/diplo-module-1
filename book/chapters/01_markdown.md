@@ -11,7 +11,8 @@ kernelspec:
   name: python3
 ---
 
-# Markdown based Notebook
+# Trabajo Práctico Final
+### Machine Learning & Deep Learning
 
 Jupyter Book allows Markdown Based Notebooks, these are plain text instead of the json based format of the traditional notebooks (.ipynb). There are some things to keep in mind when using this format as explained below.
 
