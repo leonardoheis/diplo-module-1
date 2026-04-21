@@ -1,6 +1,6 @@
-title: "diplo-modulo-1 Book Title"
-copyright: 'diplo-modulo-1 2026, diplo-modulo-1 Leonardo Heis'
-author: 'diplo-modulo-1 Leonardo Heis'
+title: "diplo-modulo-1"
+copyright: 'Leandro Jaurez / Leonardo Heis / Maximiliano Miro'
+author: 'Leandro Jaurez / Leonardo Heis / Maximiliano Miro'
 
 execute:
   execute_notebooks: "force"
