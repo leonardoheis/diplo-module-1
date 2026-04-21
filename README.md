@@ -6,7 +6,7 @@
 
 This is **manual** Jupyter Book Template. The **manual** means there are some parameters you will have to modify by hand after using this repo as a template. For an **automatic** version, visit the [sibling repository](https://github.com/ELC/jupyter-book-template-cookiecutter) built on Cookiecutter. The features are identical, the setup steps might differ.
 
-Check the final result [online](https://elc.github.io/jupyter-book-template/)
+Check the final result [online](https://leonardoheis.github.io/diplo-module-1/)
 
 ## Getting Started
 
@@ -31,9 +31,9 @@ Clone the repo and open the folder with your favourite IDE / Editor and look for
 
 - **Book Title** -> Book Template
 - **Current Year** -> 2021
-- **Project URL** -> https://elc.github.com/jupyter-book-template
-- **Repository URL** -> https://github.com/elc/jupyter-book-template
-- **Binder URL** -> https://gke.mybinder.org/build/gh/elc/jupyter-book-template/source
+- **Project URL** -> https://leonardoheis.github.com/diplo-module-1
+- **Repository URL** -> https://github.com/leonardoheis/diplo-module-1
+- **Binder URL** -> https://gke.mybinder.org/build/gh/leonardoheis/diplo-module-1/source
 - **Google Analytics Tag** -> UA-XXXXXXXX-X
 
 Then, some final TODOs:
