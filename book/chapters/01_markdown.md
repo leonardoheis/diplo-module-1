@@ -14,23 +14,15 @@ kernelspec:
 # Trabajo Práctico Final
 ### Machine Learning & Deep Learning
 
-Jupyter Book allows Markdown Based Notebooks, these are plain text instead of the json based format of the traditional notebooks (.ipynb). There are some things to keep in mind when using this format as explained below.
+### 1. Objetivo
 
-There is also a [traditional Jupyter version](02_jupyter.ipynb) of this chapter.
+Aplicar las técnicas vistas en la diplomatura a un problema real de datos, recorriendo el ciclo completo: exploración, preprocesamiento, entrenamiento de modelos y evaluación crítica de resultados.
 
-## Advantages and Disadvantages of Markdown Based Notebooks
+### 2. Consigna
 
-### Advantages
+#### Dataset
 
-- The notebook is plain text, i.e. easier to manipulate, friendlier with git and does not require any special software.
-- Load time is faster and can be modified in any text editor.
-- Does not require any software to be installed, not even Python, the book can be built in a CI/CD pipeline.
-- More resilient to format errors, i.e. if the ipynb is an invalid JSON the whole notebook cannot be rendered.
-- It is easier to add tags to code cells, no need for plugins or addons.
-- Readers will have the additional option to download the chapter as a markdown file
-- Readers can execute code directly on the site with Thebe (this is also possible with ipynb)
-
-### Disadvantages
+Utilizar un dataset propio del entorno laboral (recomendado) o uno de los datasets de ejemplo de la Sección 4.
 
 - In Markdown notebooks the output for any code cell is not shown before building the notebook.
 - The notebook needs to be executed at build time.
