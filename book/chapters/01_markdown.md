@@ -38,6 +38,7 @@ Describir el dataset (origen, qué representa cada fila/columna), definir la var
 
 #### 3.2. Análisis Exploratorio (EDA)
 Estadísticas descriptivas, visualizaciones clave (histogramas, correlaciones, distribución de clases) e identificación de problemas como desbalanceo, outliers o datos faltantes.
+Usar la librería ydata_profiling para el EDA.
 
 #### 3.3. Preprocesamiento
 Tratamiento de nulos y outliers, encoding de categóricas, normalización, split train/test y técnicas de balanceo si corresponde.
